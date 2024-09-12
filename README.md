@@ -33,6 +33,9 @@ If you've tried the above projects, do you prefer either of their workflows to
 one another? Do you prefer either of them to what you might already be used 
 to when working with Python projects?
 
+Take a look at each project's `pyproject.toml`. Do you notice any quirks
+or differences in either of them?
+
 ### For the adventurous
 
 The projects in this repository are fairly straightforward. They do
@@ -45,11 +48,16 @@ adapting to new versions of Python, etc.
 
 So, if you want to try more complex things...
 
-Try adapting an existing Python project (maybe on of your own, or 
+- Try setting up your own project with uv or Rye. Maybe something with 
+more complex dependencies like `numpy`, `polars`, `pandas`, or `pytorch` and
+`tensorflow`, if you're into those things. Was it more difficult than using `pip`
+or `conda`? Is there anything that Rye or uv did that made it less painful? *More painful?*
+
+- Try adapting an existing Python project (maybe on of your own, or 
 a project you like, say ... [Blaggregator](https://github.com/recursecenter/blaggregator))
 to use either Rye or uv. 
 
-If you do, let me know how it goes. How was the experience? What were the
+If you do any of the above, let me know how it goes. How was the experience? What were the
 rough parts? Did you encounter any particular quirks of either Rye or uv in the process?
 
 #### Links to documentation to help

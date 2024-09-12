@@ -32,5 +32,5 @@ async def index():
     return response
 
 
-def main():
+if __name__ == "__main__":
     app.run()

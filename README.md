@@ -10,7 +10,9 @@ and [uv](https://docs.astral.sh/uv/) that promise to make it easy.
 Poetry *(one to bring them all),* 
 Anaconda *(in the darkness bind them),* 
 and whatever else, and the last thing we need is yet more ways to manage Python dependencies. 
-But Rye and uv might finally be the one to rule them all.
+But Rye and uv might finally be the one to *rule them all.*
+Or, uh, you know, just make things better and let you and your collaborators work on the interesting things in your code,
+instead of fighting with dependencies and other tooling.
 
 ## So what is this?
 

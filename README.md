@@ -36,7 +36,15 @@ one another? Do you prefer either of them to what you might already be used
 to when working with Python projects?
 
 Take a look at each project's `pyproject.toml`. Do you notice any quirks
-or differences in either of them?
+or differences in either of them? 
+
+`pyproject.toml` is the [current standard](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)
+for Python tooling broadly, not just uv or Rye. But you might notice that uv and Rye
+add their own sections that *aren't* part of the standard 
+(notably, `tool.x.dev-dependencies` and the line). Those are definitely useful, and the
+standard specification currently provides no alternative. Do you think there might be any issues 
+with these tools introducing their own, non-standard structure?
+
 
 ### For the adventurous
 
